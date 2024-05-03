@@ -5,7 +5,7 @@ This repository is a fork of the original  from the afloat store website, where 
 
 
 - Changes and Additions:
-```media queries```
+```frontend layout```
 
 
 - Credits:
