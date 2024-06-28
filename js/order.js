@@ -1,4 +1,4 @@
-let l = document.getElementById("l")
+   let l = document.getElementById("l")
    let m = document.getElementById("m")
    let s = document.getElementById("s")
    let xl = document.getElementById("xl")
@@ -6,7 +6,21 @@ let l = document.getElementById("l")
    let xxxl = document.getElementById("xxxl")
    let p_size = document.getElementById("p_size")
    
+
+   
    const stt = "0px solid black"
+   
+   let sub = document.getElementById("sub")
+   let add = document.getElementById("add")
+   let num = document.getElementById("num")
+   
+   
+   sub.onclick = function(){
+   num.value--
+   }
+   add.onclick = function(){
+   num.value++
+   }
    
    l.onclick = function(){
     p_size.value = l.innerHTML
@@ -39,14 +53,5 @@ let l = document.getElementById("l")
    xxxl.style.borderBottom=stt
    }
    
-   
-    const sub = document.getElementById("sub")
-    const add = document.getElementById("add")
-    let num = document.getElementById("num")
     
-    sub.onclick = function(){
-     num.value--
-    }
-    add.onclick = function(){
-     num.value++
-    }
+    
