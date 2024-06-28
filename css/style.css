@@ -65,13 +65,13 @@ height:vh;
      width:100%;
      max-width:1000px;
      margin:0 auto;
-     background:#222;
+     background:black;
      padding-top:20px;
      padding-bottom:20px;
      }footer img{
      width:80px;
      height:80px;
-     border-radius:50px;
+     border-radius:40px;
      margin-left:20px;
      }
      footer #links{
