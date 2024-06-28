@@ -53,284 +53,25 @@ height:vh;
      }#img_displayer img{
      width:100%;
      height:auto;
-     }#img_displayer #guid{
-     width:100%;
-     border:0px solid white;
-     position:absolute;
-     top:200;
-     left:;
-     color:white;
-     text-align:center;
-     text-transform:uppercase;
-     }#img_displayer #guid h3{
-     font-weight:normal;
-     margin:0;
-     padding:0;
-     }#img_displayer #guid h1{
-     font-weight:normal;
-     margin:0;
-     margin-bottom:10px;
-     padding:0;
-     font-size:30px;
-     font-family:;
-     }#img_displayer #guid button{
-     height:40px;
-     width:80px;
-     text-transform:uppercase;
-     background:none;
-     border:1px solid white;
-     color:white;
      }
      
      
-     #image_sector{
-     width:100%;
-     max-width:1000px;
-     margin:0 auto;
-     position:relative;
-     background:grey;
-     }#image_sector img{
-     width:100%;
-     }#image_sector #sec_flexer{
-     width:100%;
-     
-     border:0px solid black;
-     display:flex;
-     justify-content:space-between;;
-     position:absolute;
-     top:250;
-     }#image_sector #sec_flexer 
-     #leftBtn,#rightBtn{
-     background:none;
-     border:0px;
-     outline:none;
-     height:34px;
-     }#image_sector #sec_flexer button svg{
-     font-size:25px;
-     }#image_sector #sec_flexer #guid{
-     border:0px solid white;
-     }#image_sector #sec_flexer #guid h1{
-     color:white;
-     text-transform:uppercase;
-     font-weight:normal;
-     }#image_sector #sec_flexer #guid button{
-     height:40px;
-     background:none;
-     border:1px solid white;
-     color:white;
-     text-transform:uppercase;
-     font-weight:bol;
-     }
-     
-     
-     #media{
-     width:100%;
-     max-width:300px;
-     margin:0 auto;
-     position:relative;
-     margin-top:25px;
-     background:grey;
-     }#media img{
-     width:100%;
-     }#media #guid{
-     width:100%;
-     border:0px solid white;
-     position:absolute;
-     top:200;
-     left:;
-     color:white;
-     text-align:center;
-     text-transform:uppercase;
-     }#media #guid h3{
-     font-weight:normal;
-     margin:0;
-     padding:0;
-     }#media #guid h1{
-     font-weight:normal;
-     margin:0;
-     margin-bottom:10px;
-     padding:0;
-     font-size:30px;
-     font-family:;
-     }#media #guid button{
-     height:40px;
-     width:80px;
-     text-transform:uppercase;
-     background:none;
-     border:1px solid white;
-     color:white;
-     
-     }
-     
-     
-     
-     #media_slide{
-     width:100%;
-     max-width:1000px;
-     margin:0 auto;
-     margin-top:40px;
-     }#media_slide h1{
-     font-weight:lighter;
-     text-align:center;
-     text-transform:uppercase;
-     font-size:20px;
-     margin:0;
-     margin-bottom:20px;
-     padding:0;
-     }#media_slide #slider{
-     display:flex;
-     justify-content:space-between;     
-     overflow:auto;
-     }#media_slide #slider #scroll{
-     width:300px;
-     height:100%;
-     margin-left:10px;
-     margin-right:5px;
-     }#media_slide #slider #scroll img{
-     width:100%;
-     height:450px;
-     }#media_slide #slider #scroll p{
-     padding:0;
-     margin-top:10px;
-     font-weight:lighter;
-     }#media_slide #slider #scroll p del{
-     font-weight:lighter;
-     font-size:15px;
-     color:red;
-     }
-     
-     
-     #clothings{
-     width:100%;
-     max-width:1000px;
-     margin:0 auto;
-     position:relative;
-     margin-top:20px;     
-     }#clothings img{
-     width:100%;
-     }#clothings #guid{
-     width:100%;
-     border:0px solid white;
-     position:absolute;
-     top:200;
-     left:;
-     color:white;
-     text-align:center;
-     text-transform:uppercase;
-     }#clothings #guid h3{
-     font-weight:normal;
-     margin:0;
-     padding:0;
-     }#clothings #guid h1{
-     font-weight:normal;
-     margin:0;
-     margin-bottom:10px;
-     padding:0;
-     font-size:50px;
-     font-family:;
-     }#clothings #guid button{
-     height:40px;
-     width:80px;
-     text-transform:uppercase;
-     background:none;
-     border:1px solid white;
-     color:white;
-     }
-     
-     #colorDisplayer{
-     width:100%;
-     max-width:1000px;
-     margin:0 auto;
-     margin-top:40px;
-     margin-bottom:40px;
-     position:relative;
-     }#colorDisplayer h1{
-     text-align:center;
-     font-weight:lighter;
-     font-size:30px;
-     text-transform:uppercase;
-     }#colorDisplayer #colorFlexer{
-     display:flex;
-     justify-content:space-between;
-     overflow:auto;
-     }#colorDisplayer #colorFlexer a{
-     
-     }
-     #colorDisplayer #colorFlexer div{
-     width:100%;
-     height:auto;
-     position:relative;
-     margin-left:10px;
-     margin-right:10px;
-     margin-top:10px;
-     margin-bottom:10px;
-     }#colorDisplayer #colorFlexer div img{
-     width:300px;
-     height:300px;
-     border-radius:150px;
-     }#colorDisplayer #colorFlexer div h2{      
-     width:50%;
-     border:0px solid white;
-     position:absolute;
-     top:150;
-     left:;
-     color:white;
-     text-align:center;
-     text-transform:uppercase;
-     font-weight:lighter;
-     }
-     
-     #more{
-     width:100%;
-     max-width:300px;
-     margin:0 auto;
-     position:relative;
-     margin-bottom:10px;
-     
-     }#more img{
-     width:100%;
-     }#more #guid{
-     width:100%;
-     border:0px solid white;
-     position:absolute;
-     top:150;
-     left:;
-     color:white;
-     text-align:center;
-     text-transform:uppercase;
-     }#more #guid h3{
-     font-weight:normal;
-     margin:0;
-     padding:0;
-     }#more #guid h1{
-     font-weight:normal;
-     margin:0;
-     margin-bottom:10px;
-     padding:0;
-     font-size:30px;
-     font-family:;
-     }#more #guid button{
-     height:40px;
-     width:80px;
-     text-transform:uppercase;
-     background:none;
-     border:1px solid white;
-     color:white;
-     }
-     
+
+
+
      
      
      footer{
      width:100%;
      max-width:1000px;
      margin:0 auto;
-     background:#222;
+     background:black;
      padding-top:20px;
      padding-bottom:20px;
      }footer img{
      width:80px;
      height:80px;
-     border-radius:50px;
+     border-radius:40px;
      margin-left:20px;
      }
      footer #links{
@@ -373,6 +114,7 @@ height:vh;
      justify-content:space-between;
      position:sticky;
      bottom:0;
+     display:none;
      }#headTop button{
      background:none;
      border:0px;
