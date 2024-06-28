@@ -1,3 +1,65 @@
+from time import sleep
+names = [
+"<h3>Afloat StEppin STONE White T-SHIRT</h3>",
+"<h3>Afloat StEppin STONE RoyalBlue T-SHIRT</h3>",
+"<h3>Afloat StEppin STONE black T-SHIRT</h3>",
+"<h3>Afloat black & blue-text Trucker Hat</h3>",
+"<h3>Afloat black Trucker Hat</h3>",
+"<h3>Afloat white & black Trucker Hat</h3>",
+"<h3>Afloat black & red-text Trucker Hat</h3>",
+"<h3>Afloats white,black,red-text Trucker Hat</h3>",
+"<h3>Afloat BLACK STEppin STONE with tracker HAT</h3>",
+"<h3>Afloat WHITE STEppin STONE with tracker HAT</h3>",
+"<h3>Afloats BLUE STEppin STONE with tracker HAT</h3>",
+"<h3>Afloats black STEppin STONE with tracker HAT</h3>",
+#"<h3>Afloats black & Blue STEppin STONE </h3>", # for the first display
+]
+images = [
+"IMG-20240621-WA0085.jpg",
+"IMG-20240621-WA0077.jpg",
+"IMG-20240621-WA0079.jpg",
+"IMG-20240621-WA0082.jpg",
+"IMG-20240621-WA0087.jpg",
+"IMG-20240621-WA0088.jpg",
+"IMG-20240621-WA0089.jpg",
+"IMG-20240621-WA0090.jpg",
+"IMG-20240621-WA0084.jpg",
+"IMG-20240621-WA0078.jpg",
+"IMG-20240621-WA0075.jpg",
+"IMG-20240621-WA0081.jpg",
+#"IMG-20240621-WA0073.jpg", # for the first display
+]
+
+amounts = [
+170.00,
+170.00,
+170.00,
+170.00,
+180.00,
+180.00,
+180.00,
+180.00,
+300.00,
+300.00,
+300.00,
+300.00,
+#170.00, # for first display
+]
+
+
+class __code__:
+	def __init__(self, head, files):
+		self.head = head
+		self.files = files
+		
+block = __code__(names,images)
+
+for i in range(0,12):
+	h = block.head[i]
+	f = block.files[i]
+	a = amounts[i]
+	
+	template = f"""
 <html>
 <head>
 <title>AFLOAT - Buy</title>
@@ -54,7 +116,7 @@
     
    </style>
    <div class="lil-images">
-    <img src="../img/products/new/IMG-20240621-WA0086.jpg">   
+    <img src="../img/products/new/{f}">   
    </div>
    <!--lil-images-->
    
@@ -64,8 +126,8 @@
     
    </style>
    <div class="data">
-    <h3>Afloat StEppin STONE Black T-SHIRT</h3>
-    <span>k170.00</span>
+    {h}
+    <span>k{a}</span>
     <p>• O-Neck</p>
     <p>• 100% Cotton</p>
     <p>• For Men, Women</p>
@@ -73,15 +135,14 @@
     
     
     <!--mikechavuma51@gmail.com-->
-    <form action="https://formsubmit.co/mikechavuma51@gmail.com" method="POST">
+    <form action="https://formsubmit.co/bartwelmwanza7@gmail.com" method="POST">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="thankyou.html">
     <input type="hidden" name="_template" value="table">
     <input type="hidden" name="_cc" value="bartwelmwanza7@gmail.com">
     <input type="hidden" name="_autoresponse" value="Thank you for shoping with afloat.">
     
-    <input type="hidden" name="item" value="Afloat StEppin STONE Black T-SHIRT">
-    
+    <input type="hidden" name="item" value="{h}">
     
     <div id="size_box">
     <p>Size: <input id="p_size" name="size_of_shirt" value="M" readonly></p>
@@ -136,4 +197,10 @@
   </div>
  <!--container-->
 </body>
-</html>
+</html>	
+"""
+	with open("order-file-"+str(i)+".html","w") as myf:
+		myf.write(template)
+		myf.close()
+	
+	
