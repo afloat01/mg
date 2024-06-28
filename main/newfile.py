@@ -137,7 +137,7 @@ for i in range(0,11):
     <!--mikechavuma51@gmail.com-->
     <form action="https://formsubmit.co/bartwelmwanza7@gmail.com" method="POST">
     <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="thankyou.html">
+    <input type="hidden" name="_next" value="https://afloat01.github.io/mike/main/thankyou.html">
     <input type="hidden" name="_template" value="table">
     <input type="hidden" name="_cc" value="bartwelmwanza7@gmail.com">
     <input type="hidden" name="_autoresponse" value="Thank you for shoping with afloat.">
