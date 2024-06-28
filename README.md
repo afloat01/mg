@@ -1,6 +1,6 @@
-# mike
+# mg
 
-This repository is a fork of the original  from the afloat store website, where I've made some modifications and additions to suit my needs. The original repository is available at https://afloat01.github.io/mike/.
+This repository is a fork of the original  from the afloat store website, where I've made some modifications and additions to suit my needs. The original repository is available at https://afloat01.github.io/mg/.
 
 
 
