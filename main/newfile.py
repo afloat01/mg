@@ -7,7 +7,7 @@ names = [
 "<h3>Afloat black Trucker Hat</h3>",
 "<h3>Afloat white & black Trucker Hat</h3>",
 "<h3>Afloat black & red-text Trucker Hat</h3>",
-"<h3>Afloats white,black,red-text Trucker Hat</h3>",
+#"<h3>Afloats white,black,red-text Trucker Hat</h3>",
 "<h3>Afloat BLACK STEppin STONE with tracker HAT</h3>",
 "<h3>Afloat WHITE STEppin STONE with tracker HAT</h3>",
 "<h3>Afloats BLUE STEppin STONE with tracker HAT</h3>",
@@ -22,7 +22,7 @@ images = [
 "IMG-20240621-WA0087.jpg",
 "IMG-20240621-WA0088.jpg",
 "IMG-20240621-WA0089.jpg",
-"IMG-20240621-WA0090.jpg",
+#"IMG-20240621-WA0090.jpg",
 "IMG-20240621-WA0084.jpg",
 "IMG-20240621-WA0078.jpg",
 "IMG-20240621-WA0075.jpg",
@@ -38,7 +38,7 @@ amounts = [
 180.00,
 180.00,
 180.00,
-180.00,
+#180.00,
 300.00,
 300.00,
 300.00,
@@ -54,7 +54,7 @@ class __code__:
 		
 block = __code__(names,images)
 
-for i in range(0,12):
+for i in range(0,11):
 	h = block.head[i]
 	f = block.files[i]
 	a = amounts[i]
